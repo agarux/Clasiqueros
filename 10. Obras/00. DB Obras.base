@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.hasTag("obra")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: Miembro
+      direction: ASC
+    order:
+      - file.name
+    sort: []
+  - type: table
+    name: View

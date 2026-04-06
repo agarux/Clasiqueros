@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.hasLink("20. Compositores/Ludwig van Beethoven")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Año estreno
+      - Miembro
+    sort:
+      - property: file.name
+        direction: ASC

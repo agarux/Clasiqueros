@@ -1,0 +1,33 @@
+filters:
+  and:
+    - file.hasTag("compositor")
+formulas:
+  Sin título: ""
+properties:
+  note.Editado por:
+    displayName: Miembro
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: Época
+      direction: ASC
+    order:
+      - file.name
+      - Año nacimiento
+      - Miembro
+      - formula.Sin título
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: Año nacimiento
+        direction: ASC
+      - property: Época
+        direction: ASC
+      - property: Miembro
+        direction: ASC
+      - property: Editado por
+        direction: DESC
+    limit: 20
+  - type: table
+    name: Vista
