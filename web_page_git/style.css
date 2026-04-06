@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f7f7f5;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 280px;
+  background: #ffffff;
+  border-right: 1px solid #e5e5e5;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+#search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+#viewer {
+  max-width: 800px;
+  margin: auto;
+}
+
+.folder {
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.file {
+  margin-left: 15px;
+  cursor: pointer;
+  color: #555;
+}
+
+.file:hover {
+  color: black;
+}
+
+/* Markdown estilo */
+#viewer h1, #viewer h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+#viewer pre {
+  background: #eee;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
