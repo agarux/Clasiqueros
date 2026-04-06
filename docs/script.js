@@ -3,17 +3,12 @@ const REPO = "Clasiqueros";
 
 const tree = document.getElementById("tree");
 const viewer = document.getElementById("viewer");
-const searchInput = document.getElementById("search");
 
-let allFiles = [];
-
-// Obtener archivos
 async function fetchRepo(path = "") {
   const res = await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/${path}`);
   return await res.json();
 }
 
-// Construir árbol
 async function buildTree(path = "", container) {
   const items = await fetchRepo(path);
 
@@ -36,7 +31,8 @@ async function buildTree(path = "", container) {
       await buildTree(item.path, sub);
     }
 
-    if (item.name.endsWith(".md")) {
+    // Archivos .md o .base
+    if (item.name.endsWith(".md") || item.name.endsWith(".base")) {
       const file = document.createElement("div");
       file.textContent = "📄 " + item.name;
       file.className = "file";
@@ -44,37 +40,20 @@ async function buildTree(path = "", container) {
       file.onclick = () => loadFile(item.download_url);
 
       container.appendChild(file);
-
-      allFiles.push({
-        name: item.name,
-        url: item.download_url
-      });
     }
   }
 }
 
-// Cargar markdown
+// Cargar y renderizar markdown
 async function loadFile(url) {
   const res = await fetch(url);
-  const text = await res.text();
+  let text = await res.text();
+
+  // Convertir tags Obsidian #tag en span
+  text = text.replace(/#(\w+)/g, '<span class="tag">#$1</span>');
+
   viewer.innerHTML = marked.parse(text);
 }
 
-// Buscador
-searchInput.addEventListener("input", () => {
-  const value = searchInput.value.toLowerCase();
-  tree.innerHTML = "";
-
-  const filtered = allFiles.filter(f => f.name.toLowerCase().includes(value));
-
-  filtered.forEach(file => {
-    const el = document.createElement("div");
-    el.textContent = "📄 " + file.name;
-    el.className = "file";
-    el.onclick = () => loadFile(file.url);
-    tree.appendChild(el);
-  });
-});
-
-// Init
+// Inicializar sidebar
 buildTree("", tree);

@@ -17,14 +17,6 @@ body {
   overflow-y: auto;
 }
 
-#search {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border-radius: 6px;
-  border: 1px solid #ddd;
-}
-
 .content {
   flex: 1;
   padding: 40px;
@@ -34,12 +26,14 @@ body {
 #viewer {
   max-width: 800px;
   margin: auto;
+  white-space: pre-wrap;
 }
 
+/* Carpeta y archivos */
 .folder {
   font-weight: 600;
   cursor: pointer;
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .file {
@@ -52,13 +46,18 @@ body {
   color: black;
 }
 
-/* Markdown estilo */
-#viewer h1, #viewer h2 {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 5px;
+/* Tags estilo Obsidian */
+.tag {
+  background: #eee;
+  color: #333;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-right: 3px;
+  font-size: 0.9em;
 }
 
-#viewer pre {
+/* Código */
+pre {
   background: #eee;
   padding: 10px;
   border-radius: 6px;
