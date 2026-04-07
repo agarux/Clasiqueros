@@ -2,7 +2,7 @@
 tags:
   - obra
 Época: Barroco
-Compositor: "[[]]"
+Compositor: "[[Johan Halvorsen]]"
 Año estreno: "1894"
 Miembro: Ana
 Puntuación Alberto:
