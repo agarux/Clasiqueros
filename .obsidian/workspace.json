@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "442ad7b9aa74c397",
+        "id": "456268b096a7ed67",
         "type": "tabs",
         "children": [
           {
-            "id": "c422011fcc10925f",
+            "id": "c7a57acebe5dc80f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "00. General/ℹ Como usar el Obsidian.md",
-                "mode": "source",
-                "source": false
+                "file": "10. Obras/00. DB Obras.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "ℹ Como usar el Obsidian"
+              "icon": "lucide-table",
+              "title": "00. DB Obras"
             }
           }
         ]
@@ -183,10 +182,14 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "c422011fcc10925f",
+  "active": "c7a57acebe5dc80f",
   "lastOpenFiles": [
-    "Sin título.base",
+    "10. Obras/Ana/260407 - 2️⃣ Passacaglia - Halvorsen.md",
+    "00. General/📌 Registro semanal 2026.md",
+    "00. General/📌 Registro semanal 2025.md",
     "00. General/ℹ Como usar el Obsidian.md",
+    "20. Compositores/Johan Halvorsen.md",
+    "Sin título.base",
     "20. Compositores/Tchaikovski.md",
     "20. Compositores/00. DB Compositores.base",
     "Sin título.md",
