@@ -11,13 +11,14 @@
             "id": "c7a57acebe5dc80f",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "10. Obras/00. DB Obras.base",
-                "viewName": "Table"
+                "file": "10. Obras/Ana/260421 - 🌄 M. Falla - La vida breve.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "00. DB Obras"
+              "icon": "lucide-file",
+              "title": "260421 - 🌄 M. Falla - La vida breve"
             }
           }
         ]
@@ -184,8 +185,11 @@
   },
   "active": "c7a57acebe5dc80f",
   "lastOpenFiles": [
-    "10. Obras/Ana/260407 - 2️⃣ Passacaglia - Halvorsen.md",
     "00. General/📌 Registro semanal 2026.md",
+    "10. Obras/Ana/260421 - 🌄 M. Falla - La vida breve.md",
+    "10. Obras/Ana/260413 - 🎳 Trío Kegelstatt, Mozart.md",
+    "10. Obras/00. DB Obras.base",
+    "10. Obras/Ana/260407 - 2️⃣ Passacaglia - Halvorsen.md",
     "00. General/📌 Registro semanal 2025.md",
     "00. General/ℹ Como usar el Obsidian.md",
     "20. Compositores/Johan Halvorsen.md",
@@ -194,7 +198,6 @@
     "20. Compositores/00. DB Compositores.base",
     "Sin título.md",
     "10. Obras/Ana/Sin título.md",
-    "Sin título.canvas",
-    "10. Obras/00. DB Obras.base"
+    "Sin título.canvas"
   ]
 }

@@ -35,8 +35,8 @@ Iconos para copiar y pegar:
 | ----------------------------------------------- | --------------------- | --------------- | -------------------------------------------- | ------------ |
 | Semana 1  <br>Plazo:  <br>30/03/2026➡05/04/2026 | Ana<br>Alberto<br>Eva | ✅<br>⏳<br>⏳     | La Pasión según San Juan, Bach<br>⏳<br>⏳<br> | ✅ <br>⏳<br>⏳ |
 | Semana 2  <br>Plazo:  <br>06/04/2026➡12/04/2026 | Ana<br>Alberto<br>Eva | ✅<br>⏳<br>⏳<br> | Passacaglia, Halvorsen <br>⏳<br>⏳            | ✅ <br>⏳<br>⏳ |
-| Semana 3  <br>Plazo:  <br>13/04/2026➡19/04/2026 | Ana<br>Alberto<br>Eva | ✅<br>⏳<br>⏳     | Trío Kegelstatt,  Mozart<br>⏳<br>⏳<br>                              | ✅<br>⏳<br>⏳  |
-| Semana 4  <br>Plazo:  <br>20/04/2026➡26/04/2026 | Ana<br>Alberto<br>Eva | ⏳<br>⏳<br>⏳     | ⏳ <br>⏳<br>⏳<br>                             | ⏳<br>⏳<br>⏳  |
+| Semana 3  <br>Plazo:  <br>13/04/2026➡19/04/2026 | Ana<br>Alberto<br>Eva | ✅<br>⏳<br>⏳     | Trío Kegelstatt,  Mozart<br>⏳<br>⏳<br>       | ✅<br>⏳<br>⏳  |
+| Semana 4  <br>Plazo:  <br>20/04/2026➡26/04/2026 | Ana<br>Alberto<br>Eva | ✅<br>⏳<br>⏳     | La vida breve, Falla<br>⏳<br>⏳<br>           | ✅<br>⏳<br>⏳  |
 # 🌞MAYO🌞
 
 # ⛱️JUNIO⛱️
