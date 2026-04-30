@@ -38,7 +38,13 @@ Iconos para copiar y pegar:
 | Semana 3  <br>Plazo:  <br>13/04/2026➡19/04/2026 | Ana<br>Alberto<br>Eva | ✅<br>⏳<br>⏳     | Trío Kegelstatt,  Mozart<br>⏳<br>⏳<br>       | ✅<br>⏳<br>⏳  |
 | Semana 4  <br>Plazo:  <br>20/04/2026➡26/04/2026 | Ana<br>Alberto<br>Eva | ✅<br>⏳<br>⏳     | La vida breve, Falla<br>⏳<br>⏳<br>           | ✅<br>⏳<br>⏳  |
 # 🌞MAYO🌞
-
+| Semana                                          | Nombre                | Estado      | Obra                                         | Registro     |
+| ----------------------------------------------- | --------------------- | ----------- | -------------------------------------------- | ------------ |
+| Semana 1  <br>Plazo:  <br>27/03/2026➡03/05/2026 | Ana<br>Alberto<br>Eva | ✅<br>⏳<br>⏳ | Cuadros de una expo. Músorgski<br>⏳<br>⏳<br> | ✅ <br>⏳<br>⏳ |
+| Semana 2  <br>Plazo:  <br>04/05/2026➡10/05/2026 | Ana<br>Alberto<br>Eva | ⏳<br>⏳<br>⏳ | ⏳ <br>⏳<br>⏳                                 | ⏳ <br>⏳<br>⏳ |
+| Semana 3  <br>Plazo:  <br>11/05/2026➡17/05/2026 | Ana<br>Alberto<br>Eva | ⏳<br>⏳<br>⏳ | ⏳<br>⏳<br>⏳<br>                              | ⏳<br>⏳<br>⏳  |
+| Semana 4  <br>Plazo:  <br>18/05/2026➡24/05/2026 | Ana<br>Alberto<br>Eva | ⏳<br>⏳<br>⏳ | ⏳<br>⏳<br>⏳<br>                              | ⏳<br>⏳<br>⏳  |
+| Semana 5  <br>Plazo:  <br>25/05/2026➡31/05/2026 | Ana<br>Alberto<br>Eva | ⏳<br>⏳<br>⏳ | ⏳<br>⏳<br>⏳<br>                              | ⏳<br>⏳<br>⏳  |
 # ⛱️JUNIO⛱️
 
 # 🚴‍♀️JULIO🚴‍♀️
